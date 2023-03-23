@@ -28,6 +28,7 @@
 }
 
 .banner-text h1{
+  color: #EFE9DE;
   font-size: 75px;
   font-weight: 400;
   padding-bottom: 15px;
@@ -89,7 +90,7 @@
   transition-duration: 0.8s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   .fig {
     height: 90vh;
     width: 95vw;
@@ -106,7 +107,7 @@
   }
   
   .banner-text h1 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 400;
     padding-bottom: 15px;
   }
@@ -121,7 +122,7 @@
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    font-size: 2px;
+    font-size: 20px;
     background-color: #1b253c;
     color: #efe9de;
     border: solid 2px #1b253c;
@@ -137,7 +138,7 @@
     background-color: #0e1420;
     color: #efe9de;
     border: solid 2px #0e1420;
-    padding: 0px 40px;
+    padding: 5px 60px;
     transition-duration: 0.8s;
   }
 
@@ -216,7 +217,7 @@
     font-size: 14px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
     .page-adgang {
       height: 250vh;
       width: 100vw;
@@ -224,9 +225,10 @@
     }
 
     .smaller-image {
-      width: 400px;
-      padding-left: 10px;
+      width: 350px;
+      margin: 80px;
     }
+
   }
 
 .page2 {
@@ -260,7 +262,7 @@
   color: #90AAB9;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   .page2 {
     height: 190vh;
     width: 100vw;
@@ -328,9 +330,9 @@
   padding-left: 280px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   .page3 {
-    height: 190vh;
+    height: 210vh;
     width: 100vw;
     padding-top: 10%;
   }
@@ -360,7 +362,7 @@
 	padding-bottom: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   .page4 {
     height: 232vh;
     width: 100vw;
@@ -370,13 +372,14 @@
 }
 
 .page5 {
-  background-color: #90AAB9;
-  height: 90vh;
+  background-color: #1b253c;
+  height: 100vh;
   width: 100vw;
   padding-top: 8%;
 }
 
 .page5 h2 {
+  color: #EFE9DE;
   font-size: 50px;
   letter-spacing: 1px;
   text-align: left;
@@ -390,7 +393,11 @@
   padding-bottom: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+.page5 .card {
+  background-color: #EFE9DE;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   .page5 {
     height: 170vh;
     width: 100vw;
@@ -439,7 +446,7 @@
   object-fit: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   .page6 {
     height: 310vh;
     width: 100vw;
@@ -486,7 +493,7 @@ footer i {
   color: #EFE9DE;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 100px) and (max-width: 600px) {
   footer h4 {
     color: #efe9de;
     font-size: 40px;
